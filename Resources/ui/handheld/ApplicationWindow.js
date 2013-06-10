@@ -26,7 +26,7 @@ function ApplicationWindow(input) {
 		 * Labels creating section for sections
 		 */
 		var sendingLabel = Ti.UI.createLabel({
-			text:L('Send'),
+			text:L('Send'), 
 			height: button_height,
 			width: button_width,
 			top: 5,
