@@ -1,0 +1,1077 @@
+<com.forgedui.model.ForgeduiModel>
+  <version>1</version>
+  <diagram>
+    <location>
+      <x>0</x>
+      <y>0</y>
+    </location>
+    <dimension>
+      <width>0</width>
+      <height>0</height>
+    </dimension>
+    <listeners serialization="custom">
+      <java.beans.PropertyChangeSupport>
+        <default>
+          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          <source class="com.forgedui.model.Diagram" reference="../../../.."/>
+        </default>
+        <com.forgedui.model.Diagram_-DiagramNamesCollector>
+          <outer-class reference="../../../.."/>
+        </com.forgedui.model.Diagram_-DiagramNamesCollector>
+        <null/>
+      </java.beans.PropertyChangeSupport>
+    </listeners>
+    <children/>
+    <platform>iPad</platform>
+    <resolution>
+      <width>768</width>
+      <height>1024</height>
+    </resolution>
+    <resForText>
+      <width>768</width>
+      <height>1024</height>
+    </resForText>
+    <screen>
+      <name>Screen_1</name>
+      <location>
+        <x>0</x>
+        <y>0</y>
+      </location>
+      <dimension>
+        <width>0</width>
+        <height>0</height>
+      </dimension>
+      <parent class="com.forgedui.model.Diagram" reference="../.."/>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+            <source class="com.forgedui.model.Screen" reference="../../../.."/>
+          </default>
+          <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <window>
+        <name>main</name>
+        <location>
+          <x>0</x>
+          <y>0</y>
+        </location>
+        <dimension>
+          <width>0</width>
+          <height>0</height>
+        </dimension>
+        <parent class="com.forgedui.model.Screen" reference="../.."/>
+        <listeners serialization="custom">
+          <java.beans.PropertyChangeSupport>
+            <default>
+              <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+              <source class="com.forgedui.model.titanium.Window" reference="../../../.."/>
+            </default>
+            <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+            <null/>
+          </java.beans.PropertyChangeSupport>
+        </listeners>
+        <type>Titanium.UI.Window</type>
+        <height>1004</height>
+        <left>0</left>
+        <top>0</top>
+        <width>768</width>
+        <children>
+          <com.forgedui.model.titanium.Label>
+            <name>Label_1</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Label" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Label</type>
+            <height>28</height>
+            <left>23</left>
+            <top>97</top>
+            <width>151</width>
+            <text>Send Message</text>
+          </com.forgedui.model.titanium.Label>
+          <com.forgedui.model.titanium.Label>
+            <name>Label_2</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Label" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Label</type>
+            <height>28</height>
+            <left>612</left>
+            <top>91</top>
+            <width>135</width>
+            <text>Acknowledge</text>
+          </com.forgedui.model.titanium.Label>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_1</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>93</top>
+            <width>110</width>
+            <title>Asset 1 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_2</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>142</top>
+            <width>110</width>
+            <title>Asset 2 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_3</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>192</top>
+            <width>110</width>
+            <title>Asset 3 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_4</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>240</top>
+            <width>110</width>
+            <title>Asset 4 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_5</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>288</top>
+            <width>110</width>
+            <title>Asset 5 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_6</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>337</top>
+            <width>110</width>
+            <title>Asset 6 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_7</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>384</top>
+            <width>110</width>
+            <title>Asset 7 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_8</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>434</top>
+            <width>110</width>
+            <title>Asset 8 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_9</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>484</top>
+            <width>110</width>
+            <title>Asset 9 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_10</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>533</top>
+            <width>110</width>
+            <title>Asset 10 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_11</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>582</top>
+            <width>110</width>
+            <title>Asset 11 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_12</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>629</top>
+            <width>110</width>
+            <title>Asset 12 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_13</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>680</top>
+            <width>110</width>
+            <title>Asset 13 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_14</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>727</top>
+            <width>110</width>
+            <title>Asset 14 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_15</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>777</top>
+            <width>110</width>
+            <title>Asset 15 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_16</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>50</left>
+            <top>826</top>
+            <width>110</width>
+            <title>Asset 16 S</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_17</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>727</top>
+            <width>110</width>
+            <title>Asset 14 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_18</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>826</top>
+            <width>110</width>
+            <title>Asset 16 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_19</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>680</top>
+            <width>110</width>
+            <title>Asset 13 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_20</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>142</top>
+            <width>110</width>
+            <title>Asset 2 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_21</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>434</top>
+            <width>110</width>
+            <title>Asset 8 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_22</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>93</top>
+            <width>110</width>
+            <title>Asset 1 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_23</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>384</top>
+            <width>110</width>
+            <title>Asset 7 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_24</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>629</top>
+            <width>110</width>
+            <title>Asset 12 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_25</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>777</top>
+            <width>110</width>
+            <title>Asset 15 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_26</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>240</top>
+            <width>110</width>
+            <title>Asset 4 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_27</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>484</top>
+            <width>110</width>
+            <title>Asset 9 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_28</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>192</top>
+            <width>110</width>
+            <title>Asset 3 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_29</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>337</top>
+            <width>110</width>
+            <title>Asset 6 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_30</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>582</top>
+            <width>110</width>
+            <title>Asset 11 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_31</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>288</top>
+            <width>110</width>
+            <title>Asset 5 R</title>
+          </com.forgedui.model.titanium.Button>
+          <com.forgedui.model.titanium.Button>
+            <name>Button_32</name>
+            <location>
+              <x>0</x>
+              <y>0</y>
+            </location>
+            <dimension>
+              <width>0</width>
+              <height>0</height>
+            </dimension>
+            <parent class="com.forgedui.model.titanium.Window" reference="../../.."/>
+            <listeners serialization="custom">
+              <java.beans.PropertyChangeSupport>
+                <default>
+                  <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  <source class="com.forgedui.model.titanium.Button" reference="../../../.."/>
+                </default>
+                <com.forgedui.model.Diagram_-DiagramNamesCollector reference="../../../../../../../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+                <null/>
+              </java.beans.PropertyChangeSupport>
+            </listeners>
+            <type>Titanium.UI.Button</type>
+            <height>36</height>
+            <left>579</left>
+            <top>533</top>
+            <width>110</width>
+            <title>Asset 10 R</title>
+          </com.forgedui.model.titanium.Button>
+        </children>
+      </window>
+    </screen>
+    <names>
+      <string>Button_4</string>
+      <string>Button_3</string>
+      <string>Button_2</string>
+      <string>Button_1</string>
+      <string>Screen_1</string>
+      <string>Button_30</string>
+      <string>Button_12</string>
+      <string>Button_31</string>
+      <string>Button_13</string>
+      <string>Button_10</string>
+      <string>Button_9</string>
+      <string>Button_11</string>
+      <string>Button_8</string>
+      <string>Button_7</string>
+      <string>Button_32</string>
+      <string>Button_6</string>
+      <string>Label_2</string>
+      <string>Button_5</string>
+      <string>Label_1</string>
+      <string>Button_19</string>
+      <string>Button_18</string>
+      <string>Button_17</string>
+      <string>Button_16</string>
+      <string>Button_15</string>
+      <string>Button_14</string>
+      <string>Button_20</string>
+      <string>Button_21</string>
+      <string>Button_22</string>
+      <string>Button_23</string>
+      <string>Button_24</string>
+      <string>main</string>
+      <string>Button_26</string>
+      <string>Button_25</string>
+      <string>Button_28</string>
+      <string>Button_27</string>
+      <string>Button_29</string>
+    </names>
+    <elementsListener class="com.forgedui.model.Diagram$DiagramNamesCollector" reference="../listeners/java.beans.PropertyChangeSupport/com.forgedui.model.Diagram_-DiagramNamesCollector"/>
+  </diagram>
+</com.forgedui.model.ForgeduiModel>
