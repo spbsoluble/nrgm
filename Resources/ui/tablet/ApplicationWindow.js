@@ -7,6 +7,7 @@ var controllers = [];
 var controllers_data = [];
 var sendAssets = [];
 var respondAssets = [];
+var buttonNames = [];
 
 var client = Ti.Network.createHTTPClient({
 		//function called when response data is available
@@ -208,6 +209,16 @@ function ApplicationWindow(input) {
 			color:'#000'
 		});
 		
+		var naminingLabel = Ti.UI.createLabel({
+			text:L('Asset Name'),
+			height: button_height,
+			width: button_width,
+			top: 5,
+			left: left_offset + button_width + 75,
+			textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+			color:'#000'
+		});
+		
 		var respondingLabel = Ti.UI.createLabel({
 			text:L('Respond To Message'),
 			height: button_height,
@@ -219,6 +230,7 @@ function ApplicationWindow(input) {
 		});
 		
 		scrollContainer.add(sendingLabel);
+		scrollContainer.add(naminingLabel);
 		scrollContainer.add(respondingLabel);
 		
 		
@@ -346,6 +358,22 @@ function ApplicationWindow(input) {
 				borderColor : '#000',
 			});
 			
+			var tempSend_tf = Ti.UI.createTextField({
+				height:button_height,
+				width: button_width,
+				title:L('Asset'+(i+1)+' S'),
+				top: yPos,
+				left: 75 + left_offset + button_width,
+				state: 'OFF',
+				controller: Math.floor(i / 8),
+				outlet: (i % 8),
+				backgroundSelectedImage: 'green.png',
+				borderColor : '#000',
+				assetNumber : i,
+				textAlign: 'center',
+				value: 'Asset ' + (i + 1),
+			});
+			
 			tempSend.addEventListener('click', function() {
 				//Ti.API.info("Controller number: " + this.controller);
 				//Ti.API.info(controllers_data[this.controller].ipAddress);
@@ -361,6 +389,14 @@ function ApplicationWindow(input) {
 					this.backgroundColor = '#FFF';
 				}
 				switchOutlet(controllers_data[this.controller], this.outlet, this.state);
+			});
+			
+			tempSend_tf.addEventListener('change', function(){
+				Ti.API.info("hi");
+				sendAssets[this.assetNumber].title = this.value + ' S';
+				respondAssets[this.assetNumber].title = this.value + ' R';
+				saveButtonSettings();
+
 			});
 			
 			//Responder Assets Buttons
@@ -396,8 +432,10 @@ function ApplicationWindow(input) {
 			//Push button objects onto their arrays
 			sendAssets.push(tempSend);
 			respondAssets.push(tempRespond);
+			buttonNames.push(tempSend_tf);
 			
 			//Add objects to the window
+			scrollContainer.add(buttonNames[i]);
 			scrollContainer.add(sendAssets[i]);
 			scrollContainer.add(respondAssets[i]);
 		}
@@ -475,7 +513,65 @@ function ApplicationWindow(input) {
 		self.setLeftNavButton(leftAll);
 		self.setRightNavButton(rightAll);
 		self.add(scrollContainer);
+		loadButtonSettings();
 	}
+	
+	
+	function loadButtonSettings(){
+		var Settings = Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory,'Settings');
+			
+		//if settings file doesn't exist then load default data'
+		if(!Settings.exists()){
+			Ti.API.info("Created Settings: " + Settings.createDirectory());
+		}
+		//else load settings file
+		var settingsFile = Titanium.Filesystem.getFile(Settings.resolve(),'Buttons.settings');
+		
+		if(!settingsFile.exists()){
+			Ti.API.info("Created Settings: " + settingsFile.createFile());
+			return false;	
+		}
+		//parse the string into a JSON object if no values found throws exception and loads nothing 
+		try{
+			var setts = JSON.parse(settingsFile.read());
+		} catch (err) {
+			//Ti.API.info('Loaded from settings file FAILED');
+			return false;
+		}
+		for(var i = 0; i < setts.length; i++){
+			buttonNames[i].value = setts[i].value;
+		}
+		//Ti.API.info('Loaded from settings file');
+		return true;
+	}
+	
+	function saveButtonSettings(){
+		data = [];
+		for(var i = 0; i < assets; i++){
+			data[i] = {
+				'value' : buttonNames[i].value,
+			}
+		}
+		
+		var Settings = Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory,'Settings');
+		if(!Settings.exists()){
+			Ti.API.info("Created Settings: " + Settings.createDirectory());
+		}
+		Ti.API.info('Settings ' + Settings);
+		var newFile = Titanium.Filesystem.getFile(Settings.resolve(),'Buttons.settings');
+	
+		//If the settings file doesn't exist then create the file
+		if(!newFile.exists()){
+			Ti.API.info("Created Settings: " + newFile.createFile());	
+		}
+		
+		newFile.write(JSON.stringify(data));
+	    //Ti.API.info('newfile: '+newFile.read());
+	    var setts = JSON.parse(newFile.read());
+	    return true;
+			
+	}
+	
 	
 	/*
 		 * Function: switchOutlet

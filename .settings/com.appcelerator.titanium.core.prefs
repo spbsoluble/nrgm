@@ -1,4 +1,10 @@
 eclipse.preferences.version=1
+provisioning_profiles/adhoc/08AEDA7C-5D85-4070-9CFA-2C9033D5F111/appid=com.ezel.nrgm
+provisioning_profiles/adhoc/08AEDA7C-5D85-4070-9CFA-2C9033D5F111/name=NRGM
+provisioning_profiles/adhoc/08AEDA7C-5D85-4070-9CFA-2C9033D5F111/uuid=08AEDA7C-5D85-4070-9CFA-2C9033D5F111
+provisioning_profiles/adhoc/4D31C41B-4D13-4E6B-B88F-3B7B276C6CE4/appid=com.unixsurplus.remoteswitch
+provisioning_profiles/adhoc/4D31C41B-4D13-4E6B-B88F-3B7B276C6CE4/name=Remote Switch Dist
+provisioning_profiles/adhoc/4D31C41B-4D13-4E6B-B88F-3B7B276C6CE4/uuid=4D31C41B-4D13-4E6B-B88F-3B7B276C6CE4
 provisioning_profiles/development/33204911-6C68-490F-90D5-16CA386B8906/appid=com.unixsurplus.remoteswitch
 provisioning_profiles/development/33204911-6C68-490F-90D5-16CA386B8906/name=Remote Switch
 provisioning_profiles/development/33204911-6C68-490F-90D5-16CA386B8906/uuid=33204911-6C68-490F-90D5-16CA386B8906
