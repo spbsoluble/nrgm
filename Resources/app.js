@@ -38,4 +38,20 @@ if (Ti.version < 1.8 ) {
 
 	var ApplicationTabGroup = require('ui/common/ApplicationTabGroup');
 	new ApplicationTabGroup(Window).open();
+	checkNetwork();
+	
+	function checkNetwork(){
+		if(Titanium.Network.networkType == Titanium.Network.NETWORK_NONE){
+		     var alertDialog = Titanium.UI.createAlertDialog({
+	              title: 'WARNING!',
+	              message: 'Your device is not online.',
+	              buttonNames: ['OK']
+	        });
+	        alertDialog.show();
+	        connectionStatus = false;
+	        return false;
+		}
+		connectionStatus = true;
+		return true;
+	}
 })();
