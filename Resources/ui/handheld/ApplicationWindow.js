@@ -410,7 +410,7 @@ function ApplicationWindow(input) {
 				top: yPos,
 				right:left_offset,
 				state: 'OFF',
-				controller: Math.floor(i / 8),
+				controller: Math.floor((i+assets) / 8),
 				outlet: (i % 8),
 				backgroundSelectedImage : 'red.jpg',
 				borderRadius : 5,
